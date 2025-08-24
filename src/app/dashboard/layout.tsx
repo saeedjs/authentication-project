@@ -1,5 +1,5 @@
 "use client";
-import { UserContext } from "@/context/userContext";
+import { UserContext } from "@/context/UserContext";
 import { redirect } from "next/navigation";
 import { useContext } from "react";
 

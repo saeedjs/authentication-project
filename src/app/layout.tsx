@@ -1,5 +1,5 @@
 import "../styles/globals.scss";
-import { UserContextProvider } from "@/context/userContext";
+import { UserContextProvider } from "@/context/UserContext";
 import LocalFont from 'next/font/local'
 
 //variable fonts

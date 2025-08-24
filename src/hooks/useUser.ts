@@ -1,6 +1,6 @@
 "use client";
 import { useContext, useState } from "react";
-import { UserContext } from "@/context/userContext";
+import { UserContext } from "@/context/UserContext";
 import { fetchUserData } from "@/services/userService";
 
 export const useUser = () => {
