@@ -1,11 +1,11 @@
-.dashboard_page {
+.dashboardWrapper {
   height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.welcom_text {
+.welcomText {
   font-size: xx-large;
   font-weight: bold;
   @media (max-width: 768px) {

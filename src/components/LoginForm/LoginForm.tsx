@@ -14,9 +14,9 @@ const LoginForm = () => {
     } = useLogin();
 
     return (
-        <div className={styles.login_page}>
-            <form className={styles.login_form} onSubmit={handleLogin}>
-                <span className={styles.login_title}>ورود</span>
+        <div className={styles.loginWrapper}>
+            <form className={styles.loginForm} onSubmit={handleLogin}>
+                <span className={styles.loginTitle}>ورود</span>
                 <Input
                     ref={inputRef}
                     className="mt20"

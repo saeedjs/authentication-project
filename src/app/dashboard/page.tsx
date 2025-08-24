@@ -1,10 +1,8 @@
-import styles from "../../styles/dashboard.module.scss";
+import Dashboard from "@/components/Dashboard";
 
 const HomeDashboard = () => {
     return (
-        <div className={styles.dashboard_page}>
-            <span className={styles.welcom_text}>Welcome to the Dashboard</span>
-        </div>
+        <Dashboard />
     );
 }
 
