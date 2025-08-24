@@ -1,8 +1,8 @@
-import Auth from "@/components/auth";
+import LoginForm from "@/components/LoginForm";
 
 const AuthPage = () => {
     return (
-        <Auth />
+        <LoginForm />
     );
 }
 
